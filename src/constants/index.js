@@ -9,7 +9,15 @@ import {
   yellowImg,
 } from "../utils";
 
-export const navLists = ["Store", "Mac", "iPhone", "Support"];
+export const navLists = [
+  { text: "Store", link: "https://www.apple.com/in/store" },
+  { text: "Mac", link: "https://www.apple.com/in/mac" },
+  { text: "iPhone", link: "https://www.apple.com/in/iphone" },
+  {
+    text: "Support",
+    link: "https://support.apple.com/en-in?cid=gn-ols-home-hp-tab",
+  },
+];
 
 export const hightlightsSlides = [
   {
